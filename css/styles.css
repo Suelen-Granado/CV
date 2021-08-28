@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  font-size: 22px;
+}
+
+.Aba-contato{
+  background-color:#F3F2C9;
+  margin: 2rem;
+}
+.conta-color,.link2{
+  color: #003638;
+}
+
+
+/* Coluna 1 */
+.coluna1{
+  background-color: #003638;
+  padding: 2rem;
+  color: white;
+  text-align: left;
+}
+.ProfilePIC{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sub-titulo-coluna1{
+margin-bottom:0.2rem;
+}
+.hr-sem-up-margem{
+  margin-top: 0;
+}
+
+/* seção Contato */
+.contato,.competencias,.idiomas{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.link{
+  color: white;
+}
+.textomenor{
+  font-size: 14px;
+  color: #53B8BB;
+}
+
+/* Coluna 2 */
+.coluna2{
+  background-color: #F3F2C9;
+  padding: 2rem;
+}
+.head{
+  margin-bottom: 2rem;
+}
+.Nome{
+  font-weight: 800;
+  color: #055052;
+}
+.subNome{
+  font-style: italic;
+}
+.sub-titulo-coluna2{
+  margin-bottom:0.2rem;
+}
+
+.table-exper{
+  width: 100%;
+}
+.tab-coluna2{
+  font-size: 14px;
+  color: #2C394B;
+}
+.tamanhocoluna1{
+  width: 30%;
+}
+.periodo{
+  font-size: 13px;
+}
+.table-form{
+  width: 80%;
+}
