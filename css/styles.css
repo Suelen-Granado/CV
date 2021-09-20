@@ -1,82 +1,147 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
-h3{
-  font-size: 22px;
-}
-
-.Aba-contato{
-  background-color:#F3F2C9;
-  margin: 2rem;
-}
-.conta-color,.link2{
-  color: #003638;
+body{
+    font-family: 'Karla', sans-serif;
 }
 
 
-/* Coluna 1 */
+
+
+.container-fluid{
+    padding: 0;
+}
+
 .coluna1{
-  background-color: #003638;
-  padding: 2rem;
-  color: white;
-  text-align: left;
+    background-color: #334257;
+}
+
+.coluna2{
+    background-color: #EEEEEE;
+}
+
+/* Bloco Foto */
+.block-img{
+    text-align: center;
+    padding: 50px 0;
 }
 .ProfilePIC{
-  text-align: center;
-  margin-bottom: 2rem;
+    height: 180px; 
 }
-.sub-titulo-coluna1{
-margin-bottom:0.2rem;
+
+/* Bloco apresentação */
+.block-name{
+    text-align: left;
+    padding: 2.5rem 3rem;
+}
+.nome{
+    font-weight: 750;
+    color: #334257;
+}
+.profissao{
+    font-style: italic;
+    margin-top: 8px;
+    color: #548CA8;
+}
+
+
+/* Bloco - resumo */
+.block-resumo{
+    padding: 0 3rem;
+    color: #EEEEEE;
+}
+.contato,.competencias,.idiomas{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+.link{
+    color: #EEEEEE;
+  }
+  .link:hover{
+    color: #548CA8;
+  }
+.email{
+    font-size: 0.85rem;
+}
+
+
+/* Conteúdo */
+.sub-titulo-coluna2{
+    margin-bottom:0.2rem;
 }
 .hr-sem-up-margem{
-  margin-top: 0;
+    margin-top: 0;
+  }
+.block-conteudo{
+    text-align: left;
+    padding: 1rem 3rem 2rem;
 }
-
-/* seção Contato */
-.contato,.competencias,.idiomas{
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-}
-.link{
-  color: white;
-}
-.textomenor{
-  font-size: 14px;
-  color: #53B8BB;
-}
-
-/* Coluna 2 */
-.coluna2{
-  background-color: #F3F2C9;
-  padding: 2rem;
-}
-.head{
-  margin-bottom: 2rem;
-}
-.Nome{
-  font-weight: 800;
-  color: #055052;
-}
-.subNome{
-  font-style: italic;
-}
-.sub-titulo-coluna2{
-  margin-bottom:0.2rem;
-}
-
 .table-exper{
-  width: 100%;
+    width: 100%;
+  }
+  .tab-coluna2{
+    font-size: 14px;
+  }
+  .tamanhocoluna1{
+    width: 30%;
+  }
+  .periodo{
+    font-size: 13px;
+    color: #548CA8;
+  }
+  .table-form{
+    width: 80%;
+  }
+  .curso{
+      padding-top: 0.8rem;
+  }
+  .curso p {
+    padding-left: 1rem;
+  }
+  .link2{
+      color: #212529;
+  }
+  .link2:hover{
+    color: #548CA8;
+  }
+  .espaco{
+      padding-top: 0.5rem;
+      padding-bottom: 1rem;
+  }
+.qualifica li{
+    background-color: #EEEEEE;
 }
-.tab-coluna2{
-  font-size: 14px;
-  color: #2C394B;
-}
-.tamanhocoluna1{
-  width: 30%;
-}
-.periodo{
-  font-size: 13px;
-}
-.table-form{
-  width: 80%;
+
+
+/* Aba Contato */
+.Aba-contato{
+    background-color:#EEEEEE;
+    margin: 2rem;
+  }
+  .conta-color,.link2{
+    color: #334257;
+  }
+  .top{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100%;
+  max-width: 500px;
+  }
+  .bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+  max-width: 500px;
+  }
+  .middle {
+    margin-bottom: -1px;
+    border-radius: 0;
+    width: 100%;
+  max-width: 500px;
+  }
+  
+
+@media (max-width: 768px) {
+    .container-resumo{
+        padding: 0 7.5rem;
+    }
 }
